@@ -4,32 +4,19 @@ using UnityEngine;
 public class FruitSpawner : MonoBehaviour
 {
     public List<GameObject> fruitPrefabs;
-    public float spawnRate = 1f; 
     public float spawnHeight = 6f;
     public float spawnWidth = 8f;
 
-    private void Update()
+    void Update()
     {
-        SpawnFruit();
-    }
-
-    void Click()
-    {
-        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        float randomX = Random.Range(-spawnWidth / 2f, spawnWidth / 2f);
-        Vector2 spawnPosition = new Vector2(randomX, mousePosition.y);
-
-        for (int i = 0; i < fruitPrefabs.Count; i++)
+        if (Input.GetMouseButtonDown(0))
         {
-            foreach (var fruit in fruitPrefabs)
-            {
-                Instantiate(fruit, spawnPosition, Quaternion.identity);
-            }
-        }
-    }
+            Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-    void SpawnFruit()
-    {
-        Click();        
+            GameObject selectedFruit = fruitPrefabs[Random.Range(0, fruitPrefabs.Count)];
+
+            Vector2 spawnPosition = new Vector2(mousePosition.x, mousePosition.y);
+            Instantiate(selectedFruit, spawnPosition, Quaternion.identity);
+        }
     }
 }
