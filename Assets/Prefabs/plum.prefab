@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 48293837547344440}
   - component: {fileID: 1426762319604823153}
   - component: {fileID: 7644143659320242944}
+  - component: {fileID: 8369529281566282688}
   m_Layer: 0
   m_Name: plum
   m_TagString: Untagged
@@ -148,3 +149,17 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.033174753}
   serializedVersion: 2
   m_Radius: 1.6052377
+--- !u!114 &8369529281566282688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3362391315560926581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e664b01e6a34fda44a5d9bcd45aa6517, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallSpeed: 5
+  stopY: -3
