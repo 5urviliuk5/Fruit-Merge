@@ -19,4 +19,14 @@ public class FruitSpawner : MonoBehaviour
             Instantiate(selectedFruit, spawnPosition, Quaternion.identity);
         }
     }
+
+    public GameObject GetNextFruitPrefab()
+    {
+        return fruitPrefabs[nextFruitIndex];
+    }
+
+    public bool HasNextFruitChanged()
+    {
+        return true;
+    }
 }
