@@ -14,7 +14,7 @@ public class FruitSpawner : MonoBehaviour
 
             GameObject selectedFruit = fruitPrefabs[Random.Range(0, fruitPrefabs.Count)];
 
-            Vector2 spawnPosition = new Vector2(mousePosition.x, mousePosition.y);
+            Vector2 spawnPosition = new Vector2(mousePosition.x, 4f);
             Instantiate(selectedFruit, spawnPosition, Quaternion.identity);
         }
     }

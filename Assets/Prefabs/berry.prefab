@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 8756343252967657500}
   - component: {fileID: 3980515203092388427}
   - component: {fileID: 1168726934875427487}
+  - component: {fileID: 3407516193251209434}
   m_Layer: 0
   m_Name: berry
-  m_TagString: 5
+  m_TagString: 7
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -148,3 +149,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &3407516193251209434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4805319002658215920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: effd077815c4b994b8e9111c8468c3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mergedPrefabs: []
