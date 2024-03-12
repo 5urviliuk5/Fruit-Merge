@@ -161,4 +161,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: effd077815c4b994b8e9111c8468c3ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mergedPrefabs: []
+  mergedFruit: {fileID: 4805319002658215920, guid: 5544d070d1cf75f41bc3746f1ccc1db1, type: 3}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 589701384112180217}
   - component: {fileID: 3977310862164726425}
   - component: {fileID: 8947706946957391792}
-  - component: {fileID: -7487283733022970763}
+  - component: {fileID: 8350270562635922800}
   m_Layer: 0
   m_Name: lemon
   m_TagString: 3
@@ -149,7 +149,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &-7487283733022970763
+--- !u!114 &8350270562635922800
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,7 +161,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: effd077815c4b994b8e9111c8468c3ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mergedPrefabs:
-  - {fileID: 4805319002658215920, guid: 5544d070d1cf75f41bc3746f1ccc1db1, type: 3}
-  - {fileID: 4805319002658215920, guid: 1fc8172868f56f941bb470362f6a4b17, type: 3}
-  - {fileID: 4805319002658215920, guid: bcfc422abad7c754494c3c8c50baf65c, type: 3}
+  mergedFruit: {fileID: 6617588075561447912, guid: 9151105ea55ad4841a6d9024dfb04ea5, type: 3}

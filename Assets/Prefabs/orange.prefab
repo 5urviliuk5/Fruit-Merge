@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7698820615903486988}
   - component: {fileID: 5949957557373466449}
   - component: {fileID: 2072167578002605886}
-  - component: {fileID: -1258342692048908790}
+  - component: {fileID: -5945249211484008256}
   m_Layer: 0
   m_Name: orange
   m_TagString: 4
@@ -149,7 +149,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &-1258342692048908790
+--- !u!114 &-5945249211484008256
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,7 +161,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: effd077815c4b994b8e9111c8468c3ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mergedPrefabs:
-  - {fileID: 4805319002658215920, guid: 5544d070d1cf75f41bc3746f1ccc1db1, type: 3}
-  - {fileID: 4805319002658215920, guid: 1fc8172868f56f941bb470362f6a4b17, type: 3}
-  - {fileID: 4805319002658215920, guid: bcfc422abad7c754494c3c8c50baf65c, type: 3}
+  mergedFruit: {fileID: 4805319002658215920, guid: 88355da646bf8004e92003b1140e336b, type: 3}
