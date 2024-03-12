@@ -2,20 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static Unity.Collections.AllocatorManager;
+using TMPro;
 
 public class Merge : MonoBehaviour
 {
     int ID;
     public GameObject mergedFruit;
+    public TextMesh scoreText;
 
     void Start()
     {
         ID = GetInstanceID();
-    }
-
-    void Update()
-    {
-        
     }
 
     private void OnCollisionEnter2D(Collision2D other)
