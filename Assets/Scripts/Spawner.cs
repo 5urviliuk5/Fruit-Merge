@@ -1,11 +1,10 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class FruitSpawner : MonoBehaviour
 {
     public List<GameObject> fruitPrefabs;
-    public float spawnHeight = 6f;
-    public float spawnWidth = 8f;
 
     void Update()
     {
@@ -18,15 +17,5 @@ public class FruitSpawner : MonoBehaviour
             Vector2 spawnPosition = new Vector2(mousePosition.x, mousePosition.y);
             Instantiate(selectedFruit, spawnPosition, Quaternion.identity);
         }
-    }
-
-    public GameObject GetNextFruitPrefab()
-    {
-        return fruitPrefabs[nextFruitIndex];
-    }
-
-    public bool HasNextFruitChanged()
-    {
-        return true;
     }
 }
