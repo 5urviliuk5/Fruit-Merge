@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5430651107209941139}
   - component: {fileID: 681392057723392077}
   - component: {fileID: 5819363795057629209}
+  - component: {fileID: 3678787402436550607}
   m_Layer: 0
   m_Name: plum
   m_TagString: 2
@@ -163,3 +164,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mergedFruit: {fileID: 992322220980630592, guid: dd72ea68fe3fb264996004b51c087e91, type: 3}
   scoreText: {fileID: 0}
+--- !u!114 &3678787402436550607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6101081893124649016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c37ec56dbcdddc4ba3eaba45220da1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

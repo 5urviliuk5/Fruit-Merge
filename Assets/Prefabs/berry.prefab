@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3980515203092388427}
   - component: {fileID: 1168726934875427487}
   - component: {fileID: 3407516193251209434}
+  - component: {fileID: -9072681245808379423}
   m_Layer: 0
   m_Name: berry
   m_TagString: 7
@@ -163,3 +164,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mergedFruit: {fileID: 4805319002658215920, guid: bcfc422abad7c754494c3c8c50baf65c, type: 3}
   scoreText: {fileID: 0}
+--- !u!114 &-9072681245808379423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4805319002658215920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c37ec56dbcdddc4ba3eaba45220da1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

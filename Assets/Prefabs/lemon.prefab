@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3977310862164726425}
   - component: {fileID: 8947706946957391792}
   - component: {fileID: 8350270562635922800}
+  - component: {fileID: -8066722392960852241}
   m_Layer: 0
   m_Name: lemon
   m_TagString: 3
@@ -163,3 +164,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mergedFruit: {fileID: 6617588075561447912, guid: 9151105ea55ad4841a6d9024dfb04ea5, type: 3}
   scoreText: {fileID: 0}
+--- !u!114 &-8066722392960852241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992322220980630592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c37ec56dbcdddc4ba3eaba45220da1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
