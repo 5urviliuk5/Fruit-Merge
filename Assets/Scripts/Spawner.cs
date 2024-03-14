@@ -25,8 +25,8 @@ public class FruitSpawner : MonoBehaviour
     {
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         GameObject selectedFruit = fruitPrefabs[Random.Range(0, fruitPrefabs.Count)];
-        Vector2 spawnPosition = new Vector2(mousePosition.x, 4f);
+        Vector2 spawnPosition = new Vector2(mousePosition.x, 3f);
         Instantiate(selectedFruit, spawnPosition, Quaternion.identity);
-        nextSpawnTime = Time.time + spawnDelay;
+        //nextSpawnTime = Time.time + spawnDelay;
     }
 }
