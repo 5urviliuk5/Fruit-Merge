@@ -15,7 +15,7 @@ public class Merge : MonoBehaviour
     {
         ID = GetInstanceID();
     }
-
+    
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.GetComponent<SpriteRenderer>().color == GetComponent<SpriteRenderer>().color)
