@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using static Unity.Collections.AllocatorManager;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Merge : MonoBehaviour
 {
@@ -21,6 +22,10 @@ public class Merge : MonoBehaviour
         {
             if (ID < other.gameObject.GetComponent<Merge>().ID) return;
             GameObject O = Instantiate(mergedFruit, transform.position, Quaternion.identity) as GameObject;
+            if (O.CompareTag("9"))
+            {
+                SceneManager.LoadScene("Final");
+            }
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
