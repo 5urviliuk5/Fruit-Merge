@@ -4,12 +4,12 @@ using UnityEngine;
 using static Unity.Collections.AllocatorManager;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Merge : MonoBehaviour
 {
     int ID;
     public GameObject mergedFruit;
-    public TextMesh scoreText;
 
     void Start()
     {

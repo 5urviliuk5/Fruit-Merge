@@ -163,7 +163,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mergedFruit: {fileID: 4805319002658215920, guid: bcfc422abad7c754494c3c8c50baf65c, type: 3}
-  scoreText: {fileID: 0}
+  score: 0
+  scoreTXT: {fileID: 0}
 --- !u!114 &-9072681245808379423
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ using UnityEngine;
 public class FruitSpawner : MonoBehaviour
 {
     public List<GameObject> fruitPrefabs;
-    public float spawnDelay = 2f;
+    public float spawnDelay = 0.5f;
     private float nextSpawnTime;
 
     void Start()
@@ -27,6 +27,6 @@ public class FruitSpawner : MonoBehaviour
         GameObject selectedFruit = fruitPrefabs[Random.Range(0, fruitPrefabs.Count)];
         Vector2 spawnPosition = new Vector2(mousePosition.x, 3f);
         Instantiate(selectedFruit, spawnPosition, Quaternion.identity);
-        //nextSpawnTime = Time.time + spawnDelay;
+        nextSpawnTime = Time.time + spawnDelay;
     }
 }
